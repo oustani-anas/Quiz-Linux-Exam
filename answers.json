@@ -1,0 +1,312 @@
+{
+  "exam_info": {
+    "university": "UNIVERSITÉ IBN TOFAIL",
+    "faculty": "FACULTÉ DES SCIENCES",
+    "department": "DÉPARTEMENT D'INFORMATIQUE",
+    "title": "Examen du Systèmes d'exploitation I",
+    "session": "IA-IF-S3 (2025-2026), Session normale",
+    "duration": "1h30mn"
+  },
+  "correct_answers": [
+    {
+      "question_id": 1,
+      "correct_answer": "C",
+      "explanation": "/etc/shadow stores encrypted user passwords"
+    },
+    {
+      "question_id": 2,
+      "correct_answer": "A",
+      "explanation": "chsh command allows modifying a user's default shell"
+    },
+    {
+      "question_id": 3,
+      "correct_answer": "B",
+      "explanation": "Primary GID is indicated in /etc/passwd file"
+    },
+    {
+      "question_id": 4,
+      "correct_answer": "C",
+      "explanation": "UID 0 corresponds to the root user"
+    },
+    {
+      "question_id": 5,
+      "correct_answer": "B",
+      "explanation": "Login shell is the program launched after login"
+    },
+    {
+      "question_id": 6,
+      "correct_answer": "A",
+      "explanation": "passwd command allows a user to change their password"
+    },
+    {
+      "question_id": 7,
+      "correct_answer": "C",
+      "explanation": "who | wc -l counts the number of connected users"
+    },
+    {
+      "question_id": 8,
+      "correct_answer": "C",
+      "explanation": "By default, a user's primary group is identical to their UID"
+    },
+    {
+      "question_id": 9,
+      "correct_answer": "A",
+      "explanation": "tree command displays directory tree structure"
+    },
+    {
+      "question_id": 10,
+      "correct_answer": "B",
+      "explanation": "fg command brings a process to the foreground"
+    },
+    {
+      "question_id": 11,
+      "correct_answer": "B",
+      "explanation": "& symbol allows launching a process in the background"
+    },
+    {
+      "question_id": 12,
+      "correct_answer": "B",
+      "explanation": "If a background process reads from STDIN, it gets suspended"
+    },
+    {
+      "question_id": 13,
+      "correct_answer": "A",
+      "explanation": "ps command displays processes of the current shell"
+    },
+    {
+      "question_id": 14,
+      "correct_answer": "C",
+      "explanation": "su command allows becoming root (sudo -i also works but su is standard)"
+    },
+    {
+      "question_id": 15,
+      "correct_answer": "A",
+      "explanation": "chmod u+x adds execute permission to the owner"
+    },
+    {
+      "question_id": 16,
+      "correct_answer": "C",
+      "explanation": "~/.bashrc is executed when opening a bash interactive non-login shell"
+    },
+    {
+      "question_id": 17,
+      "correct_answer": "D",
+      "explanation": "ip route displays the IP routing table (modern command, though route and netstat -r also work)"
+    },
+    {
+      "question_id": 18,
+      "correct_answer": "B",
+      "explanation": "renice command modifies the priority of an existing process"
+    },
+    {
+      "question_id": 19,
+      "correct_answer": "B",
+      "explanation": "Ctrl+C sends SIGINT signal"
+    },
+    {
+      "question_id": 20,
+      "correct_answer": "B",
+      "explanation": "nohup allows a process to continue after disconnection"
+    },
+    {
+      "question_id": 21,
+      "correct_answer": "C",
+      "explanation": "tar command is used to archive files"
+    },
+    {
+      "question_id": 22,
+      "correct_answer": "B",
+      "explanation": "df command displays disk space usage"
+    },
+    {
+      "question_id": 23,
+      "correct_answer": "D",
+      "explanation": "All options (poweroff, halt, shutdown now) can shut down the system immediately"
+    },
+    {
+      "question_id": 24,
+      "correct_answer": "C",
+      "explanation": "Devices are located in /dev directory"
+    },
+    {
+      "question_id": 25,
+      "correct_answer": "B",
+      "explanation": "cp command copies files and directories"
+    },
+    {
+      "question_id": 26,
+      "correct_answer": "B",
+      "explanation": "zcat command reads compressed files"
+    },
+    {
+      "question_id": 27,
+      "correct_answer": "A",
+      "explanation": "uname -r displays the kernel version"
+    },
+    {
+      "question_id": 28,
+      "correct_answer": "A",
+      "explanation": "script command records a session"
+    },
+    {
+      "question_id": 29,
+      "correct_answer": "B",
+      "explanation": "stty command configures the terminal"
+    },
+    {
+      "question_id": 30,
+      "correct_answer": "C",
+      "explanation": "uname command displays the OS name"
+    },
+    {
+      "question_id": 31,
+      "correct_answer": "D",
+      "explanation": "All options (exit, quit, logout) are correct ways to quit a session"
+    },
+    {
+      "question_id": 32,
+      "correct_answer": "A",
+      "explanation": "cat /etc/passwd displays the contents of /etc/passwd file"
+    },
+    {
+      "question_id": 33,
+      "correct_answer": "A",
+      "explanation": "echo $SHELL displays the current shell"
+    },
+    {
+      "question_id": 34,
+      "correct_answer": "A",
+      "explanation": "tcsh command temporarily launches tcsh shell"
+    },
+    {
+      "question_id": 35,
+      "correct_answer": "A",
+      "explanation": "mkdir monRep creates a directory named monRep"
+    },
+    {
+      "question_id": 36,
+      "correct_answer": "A",
+      "explanation": "touch f1 f2 creates two files in one command"
+    },
+    {
+      "question_id": 37,
+      "correct_answer": "B",
+      "explanation": "id command displays UID and GID"
+    },
+    {
+      "question_id": 38,
+      "correct_answer": "A",
+      "explanation": "mv command is used to move files"
+    },
+    {
+      "question_id": 39,
+      "correct_answer": "A",
+      "explanation": "ls command displays the content of the current directory"
+    },
+    {
+      "question_id": 40,
+      "correct_answer": "C",
+      "explanation": "rmdir command deletes an empty directory"
+    },
+    {
+      "question_id": 41,
+      "correct_answer": "A",
+      "explanation": "mv command is used to rename files"
+    },
+    {
+      "question_id": 42,
+      "correct_answer": "B",
+      "explanation": "find command searches for files by name (locate also works but find is more standard)"
+    },
+    {
+      "question_id": 43,
+      "correct_answer": "A",
+      "explanation": "find . -name core -exec rm {}; deletes all core files"
+    },
+    {
+      "question_id": 44,
+      "correct_answer": "A",
+      "explanation": "man find displays help for the find command"
+    },
+    {
+      "question_id": 45,
+      "correct_answer": "A",
+      "explanation": "ln -s creates a symbolic link"
+    },
+    {
+      "question_id": 46,
+      "correct_answer": "C",
+      "explanation": "$PATH variable contains the path of executable commands"
+    },
+    {
+      "question_id": 47,
+      "correct_answer": "D",
+      "explanation": "Both diff and cmp commands allow comparing two text files"
+    },
+    {
+      "question_id": 48,
+      "correct_answer": "A",
+      "explanation": "alias ll='ls -l' is the correct syntax to define an alias"
+    },
+    {
+      "question_id": 49,
+      "correct_answer": "C",
+      "explanation": "echo command displays a message"
+    },
+    {
+      "question_id": 50,
+      "correct_answer": "B",
+      "explanation": "groups command displays the groups to which the current user belongs"
+    },
+    {
+      "question_id": 51,
+      "correct_answer": "A",
+      "explanation": "PS1 variable defines the primary prompt"
+    },
+    {
+      "question_id": 52,
+      "correct_answer": "A",
+      "explanation": "umask command modifies the default permissions mask"
+    },
+    {
+      "question_id": 53,
+      "correct_answer": "C",
+      "explanation": "chgrp command allows changing the owning group of a file"
+    },
+    {
+      "question_id": 54,
+      "correct_answer": "A",
+      "explanation": "alias rm='rm -i' creates an alias for confirmation deletion"
+    },
+    {
+      "question_id": 55,
+      "correct_answer": "B",
+      "explanation": "ps -me displays the current user's processes"
+    },
+    {
+      "question_id": 56,
+      "correct_answer": "A",
+      "explanation": "nom(){} is the standard syntax to declare a function in shell"
+    },
+    {
+      "question_id": 57,
+      "correct_answer": "A",
+      "explanation": "read command reads user input"
+    },
+    {
+      "question_id": 58,
+      "correct_answer": "B",
+      "explanation": "&& is the logical AND operator in shell scripts"
+    },
+    {
+      "question_id": 59,
+      "correct_answer": "C",
+      "explanation": "echo command displays a result"
+    },
+    {
+      "question_id": 60,
+      "correct_answer": "A",
+      "explanation": "history command displays the command history"
+    }
+  ]
+}
